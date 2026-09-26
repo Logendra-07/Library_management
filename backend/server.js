@@ -4,7 +4,7 @@ const crypto = require("crypto");
 const db = require("./db");
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 const ADMIN_PASSKEY = process.env.ADMIN_PASSKEY || "ADMIN2026";
 
 app.use(cors());

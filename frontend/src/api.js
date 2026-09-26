@@ -13,7 +13,7 @@
 
 import { standaloneDb } from './standaloneDb';
 
-const BASE_URL = '/api';
+const BASE_URL = (import.meta.env.VITE_API_URL || '/api').replace(/\/$/, '');
 let mode = 'auto'; // 'auto' | 'backend' | 'standalone'
 
 async function rawFetch(path, options = {}) {
