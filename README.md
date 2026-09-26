@@ -3,6 +3,7 @@
 A modern, full-stack **Smart Library Management System** featuring dedicated **Student & Admin Portals**, automated due-date and overdue tracking, real-time book inventory management, role-based authentication, and a secured administrative gate with passkey authorization.
 
 - **GitHub Repository**: [https://github.com/Logendra-07/Library_management](https://github.com/Logendra-07/Library_management)
+- **Live Public URL (Mobile & Desktop)**: [https://7878e06404dfda.lhr.life](https://7878e06404dfda.lhr.life)
 - **Local Application URL**: `http://localhost:5173/`
 - **Backend API URL**: `http://localhost:5000/api`
 
